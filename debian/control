@@ -1,0 +1,12 @@
+Source: ros-indigo-ros-package-web-server
+Section: misc
+Priority: extra
+Maintainer: Mitchell Wills <mwills@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/ros_package_web_server
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ros-package-web-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-rospkg, python-tornado, ros-indigo-rospy
+Description: Web server to host ROS package content
