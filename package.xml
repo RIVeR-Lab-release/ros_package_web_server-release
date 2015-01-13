@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_package_web_server</name>
+  <version>0.0.1</version>
+  <description>Web server to host ROS package content</description>
+
+  <maintainer email="mwills@wpi.edu">Mitchell Wills</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/ros_package_web_server</url>
+  <url type="bugtracker">https://github.com/RIVeR-Lab/ros_package_web_server/issues</url>
+  <url type="repository">https://github.com/RIVeR-Lab/ros_package_web_server</url>
+
+  <author email="mwills@wpi.edu">Mitchell Wills</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>python-rospkg</run_depend>
+  <run_depend>python-tornado</run_depend>
+
+  <export>
+  </export>
+</package>
